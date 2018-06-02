@@ -1,0 +1,16 @@
+C:\Users\adrianesteban\Desktop\Primer_Parcial_Aplicada_1\Primer_Parcial_Aplicada_1\bin\Debug\Primer_Parcial_Aplicada_1.exe.config
+C:\Users\adrianesteban\Desktop\Primer_Parcial_Aplicada_1\Primer_Parcial_Aplicada_1\bin\Debug\Primer_Parcial_Aplicada_1.exe
+C:\Users\adrianesteban\Desktop\Primer_Parcial_Aplicada_1\Primer_Parcial_Aplicada_1\bin\Debug\Primer_Parcial_Aplicada_1.pdb
+C:\Users\adrianesteban\Desktop\Primer_Parcial_Aplicada_1\Primer_Parcial_Aplicada_1\bin\Debug\EntityFramework.dll
+C:\Users\adrianesteban\Desktop\Primer_Parcial_Aplicada_1\Primer_Parcial_Aplicada_1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\adrianesteban\Desktop\Primer_Parcial_Aplicada_1\Primer_Parcial_Aplicada_1\bin\Debug\EntityFramework.xml
+C:\Users\adrianesteban\Desktop\Primer_Parcial_Aplicada_1\Primer_Parcial_Aplicada_1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\adrianesteban\Desktop\Primer_Parcial_Aplicada_1\Primer_Parcial_Aplicada_1\obj\Debug\Primer_Parcial_Aplicada_1.csprojResolveAssemblyReference.cache
+C:\Users\adrianesteban\Desktop\Primer_Parcial_Aplicada_1\Primer_Parcial_Aplicada_1\obj\Debug\Primer_Parcial_Aplicada_1.IU.Consultar.ConsultarRegistro.resources
+C:\Users\adrianesteban\Desktop\Primer_Parcial_Aplicada_1\Primer_Parcial_Aplicada_1\obj\Debug\Primer_Parcial_Aplicada_1.Menu.resources
+C:\Users\adrianesteban\Desktop\Primer_Parcial_Aplicada_1\Primer_Parcial_Aplicada_1\obj\Debug\Primer_Parcial_Aplicada_1.Properties.Resources.resources
+C:\Users\adrianesteban\Desktop\Primer_Parcial_Aplicada_1\Primer_Parcial_Aplicada_1\obj\Debug\Primer_Parcial_Aplicada_1.IU.Formulario.Registro.resources
+C:\Users\adrianesteban\Desktop\Primer_Parcial_Aplicada_1\Primer_Parcial_Aplicada_1\obj\Debug\Primer_Parcial_Aplicada_1.csproj.GenerateResource.Cache
+C:\Users\adrianesteban\Desktop\Primer_Parcial_Aplicada_1\Primer_Parcial_Aplicada_1\obj\Debug\Primer_Parcial_Aplicada_1.csproj.CoreCompileInputs.cache
+C:\Users\adrianesteban\Desktop\Primer_Parcial_Aplicada_1\Primer_Parcial_Aplicada_1\obj\Debug\Primer_Parcial_Aplicada_1.exe
+C:\Users\adrianesteban\Desktop\Primer_Parcial_Aplicada_1\Primer_Parcial_Aplicada_1\obj\Debug\Primer_Parcial_Aplicada_1.pdb
