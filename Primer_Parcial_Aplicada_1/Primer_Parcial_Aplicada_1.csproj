@@ -52,7 +52,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\GruposBLL.cs" />
     <Compile Include="DAL\Contexto.cs" />
+    <Compile Include="Entidades\Grupos.cs" />
     <Compile Include="UI\Consultar\ConsultarRegistro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,10 +108,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BLL\" />
-    <Folder Include="Entidades\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\find.png" />
   </ItemGroup>

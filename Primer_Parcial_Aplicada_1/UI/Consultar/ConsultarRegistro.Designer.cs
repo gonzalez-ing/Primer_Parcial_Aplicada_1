@@ -38,10 +38,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.FiltrartextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.FiltrarcomboBox = new System.Windows.Forms.ComboBox();
             this.ConsultadataGridView = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.BuscarFiltrobutton = new System.Windows.Forms.Button();
+            this.FiltrarcomboBox = new System.Windows.Forms.ComboBox();
             this.Fechaspanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ConsultadataGridView)).BeginInit();
             this.SuspendLayout();
@@ -149,18 +149,6 @@
             this.label1.TabIndex = 38;
             this.label1.Text = "Filtrar por:";
             // 
-            // FiltrarcomboBox
-            // 
-            this.FiltrarcomboBox.FormattingEnabled = true;
-            this.FiltrarcomboBox.Items.AddRange(new object[] {
-            "ArticuloId",
-            "Descripcion",
-            "Precio"});
-            this.FiltrarcomboBox.Location = new System.Drawing.Point(12, 75);
-            this.FiltrarcomboBox.Name = "FiltrarcomboBox";
-            this.FiltrarcomboBox.Size = new System.Drawing.Size(186, 21);
-            this.FiltrarcomboBox.TabIndex = 37;
-            // 
             // ConsultadataGridView
             // 
             this.ConsultadataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -188,6 +176,15 @@
             this.BuscarFiltrobutton.Size = new System.Drawing.Size(80, 40);
             this.BuscarFiltrobutton.TabIndex = 41;
             this.BuscarFiltrobutton.UseVisualStyleBackColor = false;
+            this.BuscarFiltrobutton.Click += new System.EventHandler(this.BuscarFiltrobutton_Click);
+            // 
+            // FiltrarcomboBox
+            // 
+            this.FiltrarcomboBox.FormattingEnabled = true;
+            this.FiltrarcomboBox.Location = new System.Drawing.Point(12, 76);
+            this.FiltrarcomboBox.Name = "FiltrarcomboBox";
+            this.FiltrarcomboBox.Size = new System.Drawing.Size(188, 21);
+            this.FiltrarcomboBox.TabIndex = 46;
             // 
             // ConsultarRegistro
             // 
@@ -195,6 +192,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Chocolate;
             this.ClientSize = new System.Drawing.Size(511, 410);
+            this.Controls.Add(this.FiltrarcomboBox);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.Fechaspanel);
@@ -203,7 +201,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.FiltrartextBox);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.FiltrarcomboBox);
             this.Controls.Add(this.ConsultadataGridView);
             this.Name = "ConsultarRegistro";
             this.Text = "ConsultarRegistro";
@@ -229,8 +226,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox FiltrartextBox;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox FiltrarcomboBox;
         private System.Windows.Forms.DataGridView ConsultadataGridView;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ComboBox FiltrarcomboBox;
     }
 }
