@@ -126,7 +126,7 @@
             this.FechaDateTimePicker.Name = "FechaDateTimePicker";
             this.FechaDateTimePicker.Size = new System.Drawing.Size(227, 21);
             this.FechaDateTimePicker.TabIndex = 42;
-            this.FechaDateTimePicker.Value = new System.DateTime(2018, 5, 26, 0, 0, 0, 0);
+            this.FechaDateTimePicker.Value = new System.DateTime(2018, 6, 5, 1, 9, 46, 0);
             // 
             // label7
             // 
@@ -166,6 +166,7 @@
             this.Cantidad_GruposnumericUpDown.Name = "Cantidad_GruposnumericUpDown";
             this.Cantidad_GruposnumericUpDown.Size = new System.Drawing.Size(201, 20);
             this.Cantidad_GruposnumericUpDown.TabIndex = 38;
+            this.Cantidad_GruposnumericUpDown.ValueChanged += new System.EventHandler(this.Cantidad_GruposnumericUpDown_ValueChanged);
             // 
             // label4
             // 

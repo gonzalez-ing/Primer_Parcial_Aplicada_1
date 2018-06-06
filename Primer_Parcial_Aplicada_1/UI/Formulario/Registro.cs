@@ -36,6 +36,7 @@ namespace Primer_Parcial_Aplicada_1.IU.Formulario
         private void Limpiar()
         {
             IdnumericUpDown.Value = 0;
+            FechaDateTimePicker.Value = DateTime.Now;
             DescripciontextBox.Text = string.Empty;
             CantidadnumericUpDown.Value = 0;
             Cantidad_GruposnumericUpDown.Value = 0;
@@ -73,9 +74,9 @@ namespace Primer_Parcial_Aplicada_1.IU.Formulario
             if (Grupo != null)
             {
                 IdnumericUpDown.Value = Grupo.GrupoId;
-                FechaDateTimePicker.Value = (DateTime)Grupo.Fecha;
+                FechaDateTimePicker.Value = Grupo.Fecha;
                 DescripciontextBox.Text = Grupo.Descripcion;
-                CantidadnumericUpDown.Value = (Decimal)Grupo.Cantidad;
+                CantidadnumericUpDown.Value = Grupo.Cantidad;
                 CantidadnumericUpDown.Value = Grupo.Cantidad_Grupos;
                 IntegrantestextBox.Text = Grupo.Integrantes.ToString();
             }
@@ -124,6 +125,16 @@ namespace Primer_Parcial_Aplicada_1.IU.Formulario
                 MessageBox.Show("Eliminado!!", "Excelente", MessageBoxButtons.OK, MessageBoxIcon.Information);
             else
                 MessageBox.Show("No se pudo eliminar!!", "Hay Problemas", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+
+        private void Cantidad_GruposnumericUpDown_ValueChanged(object sender, EventArgs e)
+        {
+            int cantidad = Convert.ToInt32(CantidadnumericUpDown.Value), grupos = Convert.ToInt32(Cantidad_GruposnumericUpDown.Value);
+            if (cantidad > 0 && grupos > 0)
+            {
+                IntegrantestextBox.Text = (cantidad / grupos).ToString();
+            }
+            
         }
     }
 }

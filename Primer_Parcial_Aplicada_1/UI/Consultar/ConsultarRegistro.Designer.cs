@@ -181,6 +181,12 @@
             // FiltrarcomboBox
             // 
             this.FiltrarcomboBox.FormattingEnabled = true;
+            this.FiltrarcomboBox.Items.AddRange(new object[] {
+            "Todos",
+            "GrupoId",
+            "Descripcion",
+            "Cantidad",
+            "Grupos"});
             this.FiltrarcomboBox.Location = new System.Drawing.Point(12, 76);
             this.FiltrarcomboBox.Name = "FiltrarcomboBox";
             this.FiltrarcomboBox.Size = new System.Drawing.Size(188, 21);

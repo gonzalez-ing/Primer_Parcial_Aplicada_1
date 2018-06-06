@@ -5,10 +5,12 @@ GO
 CREATE TABLE Grupos
 (
 	GrupoId int primary key identity,
-	Fecha DateTime,
+	Fecha Date,
 	Descripcion Varchar(max),
-	Cantidad Decimal,
-	Cantidad_Grupos Decimal,
+	Cantidad Decimal(15),
+	Cantidad_Grupos Decimal(15),
 	Integrantes Varchar(15)
 	
 );
+
+select * from Grupos
